@@ -1,0 +1,335 @@
+body
+{
+    width: 100%;
+    background-color: black;
+}
+
+.white{
+    width: 100%;
+    height: 15vw;
+    position: relative;
+    display: block;
+    background-color: white;
+    overflow: hidden;
+}
+
+.imgtextrestyle{
+    width: 400%;
+
+}
+
+.imgrest{
+    width: 1000%;
+    position: absolute;
+    display: block;
+  
+    animation: restyle 7s linear infinite;
+    margin-top: -2%;
+    
+}
+
+
+@keyframes restyle {
+    from { left: 0% ; width: 100%;}
+    to { left: -170% ;  width: 100%;}
+  }
+
+.pugg{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 518px;
+    margin-top: -2%
+}
+.pug{
+    width: 1523px;
+    height: 547px;
+    display: block;
+    position: absolute;
+    background: url(../img/pug.svg);
+    animation: pug 1s steps(1) infinite;
+  
+}
+
+
+
+@keyframes pug{
+    0% {background-position: 1523px 0px;}
+    50% {background-position: 3046px 0px;}
+    70% {background-position: 4569px 0px;}
+    100% {background-position: 1523px 0px;}
+
+}
+
+.blue{
+    width: 100%;
+    height: 6vw;
+    position: relative;
+    display: block;
+    background-color: #1500FF;
+    overflow: hidden;
+    margin-top: 0.9%;
+}
+
+.imgatele{
+    width: 150%;
+
+    position: absolute;
+    display: block;
+
+    animation: atele 13s linear infinite;
+   
+    
+}
+
+.imgrubaxa{
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: relative;
+    
+}
+
+.imgrubaxxa{
+    width: 100%;
+    /* margin-top: 20%; */
+    position: absolute;
+}
+
+
+.imgtoch{
+    width: 100%;
+    margin-top: 0.5%;
+}
+
+@keyframes atele {
+    from { left: 0%; }
+    to { left: -170%;}
+  }
+
+
+
+.bbirka{
+        width: 100%;
+        height: 24vw;
+        overflow: hidden;
+        position: relative;
+        margin-top: -60vw;
+}
+
+.birka{
+    position: absolute;
+    width: 100%;
+    height: 24vw;
+    display: block;
+    animation: birka 2s ease-in-out infinite;
+    transform-origin: 50% 0%;
+   
+    /* margin-left: 40%; */
+    /* margin: 0px; */
+}
+
+
+    @keyframes birka {
+        0%, 100% {
+        transform: rotatex(0deg);
+        }
+        50% {
+        transform: rotatex(0deg);
+        }
+        75% {
+        transform: rotatex(30deg);
+        }
+        25% {
+        transform: rotatex(30deg);
+        }
+    }
+
+    .pink{
+        width: 100%;
+        height: 6vw;
+        position: relative;
+        display: block;
+        background-color: #FF00E6;
+        overflow: hidden;
+        margin-top: 32%;
+    }
+
+
+.imgctil{
+    width: 260%;
+    position: absolute;
+    display: block;
+    animation: ctil 7s linear infinite;
+    margin-top: -0.5%;
+}
+
+@keyframes ctil {
+    from { left: 0%; }
+    to { left: -170%;}
+  }
+
+.kkrug{
+    width: 100vw;
+    margin-top: 1%;
+    
+    position: absolute;
+    display: block;
+
+}
+
+.kkkrug{
+    width: 100vw;
+    
+    position: absolute;
+    display: none;
+
+}
+
+.krugi{
+    position: relative;
+}
+
+
+.pugmobile{
+   
+    margin-top: -102%;
+ 
+    position: absolute;
+    display: none;
+
+}
+
+
+.green{
+    width: 100%;
+    height: 6vw;
+    position: relative;
+    display: block;
+    background-color: #00FF0A;
+    overflow: hidden;
+    margin-top: 33%;
+    
+}
+
+.imgrestylle{
+    width: 380%;
+    position: absolute;
+    display: block;
+    animation: restylle 6s linear infinite;
+    margin-top: 1%;
+}
+
+@keyframes restylle {
+    from { left: 0%; }
+    to { left: -170%;}
+  }
+
+
+  .text {
+    position: relative;
+    width: 50vw; 
+    height: 80vw; 
+    margin-top: -110%;
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+.texxt, .texxtin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease; 
+}
+
+.texxtin {
+    opacity: 0; 
+    margin-top: 20%;
+    width: 80%;
+}
+
+.text:hover .texxt {
+    opacity: 0; 
+}
+
+.text:hover .texxtin {
+    opacity: 1; 
+}
+
+.textt {
+    position: relative;
+    width: 50vw; 
+    height: 80vw; 
+    margin-top: -110%;
+    margin-left: 51%;
+    overflow: hidden;
+}
+
+.texttt, .texttin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease; 
+}
+
+.texttin {
+    opacity: 0; 
+    margin-top: 20%;
+    width: 45vw;
+}
+
+.textt:hover .texttt {
+    opacity: 0; 
+}
+
+.textt:hover .texttin {
+    opacity: 1; 
+}
+
+.tigr{
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: 59%;
+
+}
+
+.podval{
+    font-family: "Kazimir Italic" ;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 4vw;
+    animation: text 7s linear infinite;
+    color: white;
+    margin-top: 1%;
+    
+}
+
+@keyframes text {
+    from { text-indent: 100%}
+    to { text-indent: -100%}
+  }
+
+
+.bbulav{
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+    position: relative;
+    margin-top: -30vw;
+    margin-left: -4%;
+}
+
+.bulav{
+    position: absolute;
+    width: 100%;
+    height: 10vw;
+    display: block;
+    animation: bbbulav 2s ease-in-out infinite;
+    transform-origin: 50% 0%;
+}

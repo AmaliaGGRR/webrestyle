@@ -1,0 +1,62 @@
+
+
+@media screen and (max-width: 414px) {
+    .kkkrug{
+        display: block;
+    }
+    .kkrug{
+        display: none;
+        
+    }
+}
+
+
+@media screen and (max-width: 1928px) {
+   .pug{
+    width: 97%;
+    
+    margin-top: 0.3%;
+    justify-content: center;
+    margin-left: 2%;
+   }
+}
+
+@media screen and (max-width: 1366px) {
+    .pug{
+     width: 90%;
+     margin-left: 5%;
+     justify-content: center;
+     margin-left: 2%;
+    }
+ }
+
+ @media screen and (max-width: 1366px) {
+    .pug{
+     width: 93%;
+     
+     justify-content: center;
+     margin-left: 5%;
+    }
+ }
+ 
+
+ @media screen and (max-width: 414px) {
+    .pug{
+        display: none;
+       }
+       .pugg{
+        width: 80%;
+        height: 22vw;
+       
+       }
+       .pugmobile{
+        display: block;
+        height: 20vw ;
+
+       }
+
+       .green{
+        position: relative;
+        margin-top: 49%;
+       }
+}
