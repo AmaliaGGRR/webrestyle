@@ -316,20 +316,28 @@ body
   }
 
 
-.bbulav{
-    width: 100%;
-    height: 10vw;
-    overflow: hidden;
-    position: relative;
-    margin-top: -30vw;
-    margin-left: -4%;
-}
 
 .bulav{
     position: absolute;
     width: 100%;
     height: 10vw;
-    display: block;
-    animation: bbbulav 2s ease-in-out infinite;
+    position: relative;
+    animation: bbulav 2s ease-in-out infinite;
     transform-origin: 50% 0%;
+}
+
+
+@keyframes pelum {
+    0%, 100% {
+    transform: rotate(0deg);
+    }
+    50% {
+    transform: rotate(360deg);
+    }
+    75% {
+    transform: rotate(360deg);
+    }
+    25% {
+    transform: rotate(40deg);
+    }
 }
